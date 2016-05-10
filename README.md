@@ -13,6 +13,7 @@ The structure of the file repository contains of an Id and a Version.
 
 ### Example:
 
+```
 $ tree bins
 bins
 ├── my-artifact
@@ -50,7 +51,7 @@ bins
                     ├── performance.report.xml
                     ├── test.report.xml
                     └── your-artifact-2.1.0-6.tar.gz
-
+```
 
 ## Installation
 
