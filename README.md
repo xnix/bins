@@ -71,10 +71,14 @@ Client must have ssh access to the Server, preferable with private/public keys.
 ### Example
 
 Store the content of 'artifact-directory' under [bins.host]:[bins.path]/my-artifact/4/1/0/2
-  bins-upload.sh my-artifact 4.1.0-2 artifact-directory
+```
+bins-upload.sh my-artifact 4.1.0-2 artifact-directory
+```
 
 Build number with dot is also supported, will store under same path: [bins.host]:[bins.path]/my-artifact/4/1/0/2
-  bins-upload.sh my-artifact 4.1.0.2 artifact-directory
+```
+bins-upload.sh my-artifact 4.1.0.2 artifact-directory
+```
 
 Version label can be used to separate builds. Storage path: [bins.host]:[bins.path]/my-artifact/4/1/0/projectA/2
   bins-upload.sh my-artifact 4.1.0-projectA.2 artifact-directory
