@@ -85,7 +85,7 @@ Version label can be used to separate builds. Storage path: [bins.host]:[bins.pa
 
 ## Server
 
-* bins-cleanup.sh \<base.path\> \<versions to keep\>
+* bins-cleanup.sh \<bins path\> \<versions to keep\>
 
 The versions to keep parameter affects how many build numbers of every version to keep.
 
