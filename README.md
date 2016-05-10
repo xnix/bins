@@ -7,9 +7,9 @@ Bash versioned file storage
 Client must have ssh access to the Server, preferable with private/public keys.
 
 * Download [bins.zip](https://github.com/tomas-forsman/bins/releases/download/0.5.0/bins-0.5.0.zip)
-* Unzip zip to custom location (Example: /var/lib/bins)
-* Put <bins dir>/bin in your PATH
-* Update <bins dir>/etc/bins.properties
+* Unzip zip to your [bins dir] (Example: /var/lib/bins)
+* Put [bins dir]/bin in your PATH
+* Update [bins dir]/etc/bins.properties
 
 ## Usage
 
