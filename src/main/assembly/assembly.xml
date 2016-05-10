@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<assembly>
+    <id>bins</id>
+    <formats>
+        <format>zip</format>
+    </formats>
+    <includeBaseDirectory>false</includeBaseDirectory>
+    <fileSets>
+        <fileSet>
+            <directory>${project.build.outputDirectory}/bin</directory>
+            <outputDirectory>bins/bin</outputDirectory>
+            <fileMode>0755</fileMode>
+            <directoryMode>0755</directoryMode>
+        </fileSet>
+        <fileSet>
+            <directory>${project.build.outputDirectory}/etc</directory>
+            <outputDirectory>bins/etc</outputDirectory>
+            <fileMode>0755</fileMode>
+            <directoryMode>0755</directoryMode>
+        </fileSet>
+    </fileSets>
+    <files>
+        <file>
+            <source>README.md</source>
+            <outputDirectory>bins</outputDirectory>
+        </file>
+    </files>
+</assembly>
